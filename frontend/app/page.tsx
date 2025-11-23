@@ -5,8 +5,8 @@ import CampaignTable from "./components/Campaign";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center">
-      <header className="p-6 min-w-4xl mx-auto flex justify-between items-center gap-[10%]">
+    <div className="flex flex-col min-h-screen items-center gap-6">
+      <header className="p-6 min-w-4xl mx-auto flex justify-between items-center">
         <div>
           <h1 className="text-3xl font-semibold text-(--primary)">
             Campaigns Dashboard
